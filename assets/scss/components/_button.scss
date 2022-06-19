@@ -1,0 +1,25 @@
+.button {
+  @extend %button-properties;
+  &:hover {
+    background-color: black;
+  }
+}
+
+%button-properties {
+  padding: 4px 8px;
+  background-color: gray;
+  color: white;
+  border: 1px solid black;
+  border-radius: $border-radius-base;
+  transition: background-color 300ms linear;
+}
+
+.button-secondary {
+  @extend %button-properties;
+  background-color: teal;
+  color: rgb(30, 200, 200);
+
+  &:hover {
+    background-color: rgb(243, 185, 195);
+  }
+}

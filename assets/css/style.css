@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.wrapper2 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.button:hover {
+  background-color: black; }
+
+.button, .button-secondary {
+  padding: 4px 8px;
+  background-color: gray;
+  color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  transition: background-color 300ms linear; }
+
+.button-secondary {
+  background-color: teal;
+  color: #1ec8c8; }
+  .button-secondary:hover {
+    background-color: #f3b9c3; }
